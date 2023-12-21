@@ -1,0 +1,390 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(239, 230, 239);
+    background-image: url(karandashhh.webp);
+    background-size:1800px 500px;
+    background-repeat: no-repeat;
+    background-attachment:local;
+
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color: #ffffff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+
+}
+
+#im {
+    width: 65px;
+    height: 50px;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.3s ease;
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+    color: purple;
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: purple;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+#hero {
+    background-image: url(1130_Precision-Pout-Liner_desktop_kylie-2_1.webp);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top 15% right -2px;
+    padding: 201px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#hero h4 {
+    padding-bottom: 15px;
+
+}
+
+#hero h1 {
+    color: purple;
+}
+
+#shop {
+    border-radius: 15px;
+    border: 2px solid purple;
+    color: purple;
+    /* border: 0; */
+    padding: 15px 20px 15px 20px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+
+    /* background-color: rgb(158, 128, 158); */
+}
+
+#shop2 {
+    border-radius: 15px;
+    border: 2px solid purple;
+    color: purple;
+    /* border: 0; */
+    padding: 15px 20px 15px 20px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+    position: relative;
+    top: 220px;
+
+}
+
+#shop2:hover {
+    background-color: rgba(43, 3, 50, 0.989);
+    color: white;
+    border-color: white;
+}
+
+#shop:hover {
+    background-color: rgba(43, 3, 50, 0.989);
+    color: white;
+    border-color: white;
+}
+
+#pencils {
+    width: 180px;
+    height: 200px;
+
+}
+
+#feature {
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 85px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#feature .fe-box {
+    width: 180px;
+    text-align: center;
+    padding: 20px 20px 34px rbga(0, 0, 0, 0.03);
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    margin: 15px 0;
+    box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.03);
+}
+
+#feature .fe-box:hover {
+    box-shadow: 10px 10px 54px rgba(167, 167, 174, 0.01);
+}
+
+#feature .fe-box h6 {
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 20px;
+    color: #4e1212;
+    background-color: #e3e6f3;
+}
+
+#feature .fe-box img {
+    width: 100;
+    margin-bottom: 10px;
+}
+
+#pro1 img {
+    width: 203px;
+
+}
+
+#pro1 {
+    width: 203px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 4px #3e3d3d;
+    position: relative;
+    left: 20px;
+    padding: 5px;
+}
+
+#kyliecosm {
+    color: rgb(156, 154, 154);
+}
+
+#featured {
+    text-align: center;
+    position: relative;
+    top: 135px;
+}
+
+.kylash {
+    width: 204px;
+    height: 200px;
+    border-radius: 7px;
+}
+
+#f {
+    width: 204px;
+    height: 290px;
+    border-radius: 7px;
+    background-color: white;
+
+}
+
+#whole {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 500px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+#whole1 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 140px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+#nov {
+    width: 550px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+#lipstick {
+    position: relative;
+    top: 80px;
+    margin: auto;
+    width: 1220px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(250, 234, 245);
+
+}
+
+#second {
+    width: 550px;
+    height: 500px;
+    border-radius: 20px;
+    background-color: white;
+    text-align: center;
+}
+
+#faves {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    top: 150px;
+}
+
+#ourfav {
+    position: relative;
+    top: 181px;
+}
+
+.fa-star {
+    width: 10px;
+    height: 10px;
+}
+
+#stars {
+    padding-left: 7px;
+}
+
+#postSection {
+    max-width: 600px;
+    margin-left: 40px;
+    margin-top: 25px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+#post {
+    background-color: #af4ca8;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#post:hover {
+    background-color: rgb(48, 9, 57);
+}
+
+#theend {
+    margin-left: 442px;
+    margin-top: 120px;
+}
+#create {
+    margin-top: 100px;
+}
+#signup {
+    width: 376px;
+    height: 37px;
+    border: none;
+    border-radius: 5px;
+}
+#subm {
+    border: 2px solid purple;
+    border-radius: 5px;
+    background-color: transparent;
+    width: 91px;
+    height: 37px;
+    color: purple;
+}
+#subm:hover {
+    cursor: pointer;
+    background-color: rgb(48, 9, 57);
+    border-color:rgb(48, 9, 57);
+    color:white; 
+}
+.fa-instagram {
+   font-size: x-large;
+   margin-left: 20px;
+
+}
+.fa-facebook-f {
+    font-size: x-large;
+    margin-left: 20px;
+
+}
+.fa-tiktok {
+    font-size: x-large;
+    margin-left: 20px;
+
+}
+.fa-twitter {   
+    font-size: x-large;
+    margin-left: 20px;
+
+}
+#icons {
+    display: flex;
+    margin:0;
+    height:100hv;
+    align-items: center;
+    justify-content: center;
+}
+#tracking {
+    display:flex;
+    justify-content: center;
+    height:100hv;
+    align-items:center;
+    margin:0;
+}
+#orders {
+    margin-left:20px;
+}
+#coty {
+    font-size:11px;     
+    color: #3e3d3d;
+    justify-content: center;
+    height:100hv;
+    align-items:center;
+    margin:0;
+}
+#lipliner {
+    color:rgb(90, 88, 88);
+    position: absolute;
+    top:420px;
+    left:20px;
+}
